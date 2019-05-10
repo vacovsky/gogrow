@@ -1,0 +1,35 @@
+#!/bin/bash
+
+export GG_API_PORT="80"
+export GG_DB_DIALECT="sqlite3"
+export GG_DB_PATH="database/gogrow.db"
+export GG_AMBIENT_DHT_PIN="15"
+export GG_TENT_DHT_PIN="14"
+export GG_DB_LOGMODE="ON"
+export GG_POLLING_INTERVAL="300"
+export GG_PLATFORM="pi3"
+export GG_ZIPCODE="12345"
+export GG_OPENWEATHER_API_KEY="MYKEY"
+export GG_OPENWEATHER_API_UNITS="imperial"
+export GG_CAMERA_INTERVAL_HOURS="1"
+export GG_TIMEZONE_OFFSET="0700"
+
+
+# if "VCHI initialization failed" error appears, run this
+# sudo usermod -aG video <username>
+
+
+# Get latest libs
+echo "Pulling latest code"
+go get -u bitbucket.org/vacovsky/greenguard
+
+# ###
+echo "Building..."
+echo ""
+# GOARCH="arm64" GOOS="linux" 
+# go build -o greenguard &&
+
+###
+echo "Launching..."
+echo ""
+./greenguard

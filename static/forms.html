@@ -1,0 +1,109 @@
+<div id="plant-details-form-div">
+    <form>
+        <fieldset>
+            <legend>Set Crop Details</legend>
+            <div class="input-group vertical">
+                <label for="FriendlyName">Type of Plant</label>
+                <input type="text" id="FriendlyName" value="Hot Peppers!">
+
+                <label for="PlantedAsSeed">Planted as Seed?</label>
+                <input type="checkbox" id="PlantedAsSeed">
+
+                <label for="TimeGerminated">When was it germinated?</label>
+                <input type="datetime-local" id="TimeGerminated">
+
+                <label for="TimeOfPlanting">When was it planted?</label>    
+                <input type="datetime-local" id="TimeOfPlanting">
+                
+                <label for="TimeOfFlowering">Expected flowering time?</label>
+                <input type="datetime-local" id="TimeOfFlowering">
+
+                <label for="TimeHarvested">Expected harvest time?</label>
+                <input type="datetime-local" id="TimeHarvested">
+            </div>
+        </fieldset>
+        <center>
+            <button type="button" id="cycle-form-button" onclick="submitCycleForm()">Save</button>
+        </center>
+    </form>
+</div>
+
+<div id="fert-form-div">
+    <form>
+        <fieldset>
+            <legend>Add a Fertilization</legend>
+            <div class="input-group vertical">
+                <label for="FertTime">When was is fertilized?</label>
+                <input type="datetime-local" id="FertTime">
+                <label for="FertType">Type of Fertilizer</label>
+                <input type="text" id="FertType">
+                <label for="AmountUsedLiters">Amount used in Liters</label>
+                <input type="number" id="AmountUsedLiters">
+                <label for="FertilizerN">N Value</label>
+                <input type="number" id="FertilizerN">
+                <label for="FertilizerK">K Value</label>
+                <input type="number" id="FertilizerK">
+                <label for="FertilizerP">P Value</label>
+                <input type="number" id="FertilizerP">
+            </div>
+        </fieldset>
+        <center>
+            <button type="button" onclick="submitFertForm()">Save</button>
+        </center>
+    </form>
+</div>
+
+
+<div id="watering-form-div">
+    <form id="watering-form">
+        <fieldset>
+            <legend>Add a Watering</legend>
+            <div class="input-group vertical">
+                <label for="WaterTime">Time</label>
+                <input type="datetime-local" id="WaterTime">
+
+                <label for="WaterAmountUsedLiters">Amount in Liters</label>
+                <input type="number" id="WaterAmountUsedLiters">
+            </div>
+        </fieldset>
+        <center>
+            <button type="button" id="watering-form-button" onclick="submitWaterForm()">Save</button>
+        </center>
+    </form>
+</div>
+
+
+
+<div id="fan-form-div">
+    <form>
+        <fieldset>
+            <legend>Fan Details</legend>
+            <div class="input-group vertical">
+                <label for="FanType">Type of Fan</label>
+                <input type="text" id="FanType" >
+                <label for="FanCFM">Max CFM</label>
+                <input type="number" id="FanCFM" >
+            </div>
+        </fieldset>
+        <center>
+            <button type="button" onclick="submitFanForm()">Save</button>
+        </center>
+    </form>
+</div>
+
+<div id="light-form-div">
+    <form>
+        <fieldset>
+            <legend>Lighting Details</legend>
+            <div class="input-group vertical">
+                <label for="LightType">Type of Light (brand, model, etc)</label>
+                <input type="text" id="LightType">
+                <label for="LightWattage">Wattage</label>
+                <input type="number" id="LightWattage">
+            </div>
+        </fieldset>
+        <center>
+            <button type="button" onclick="submitLightForm()">Save</button>
+        </center>
+    </form>
+</div>
