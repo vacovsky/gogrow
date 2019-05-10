@@ -1,5 +1,6 @@
 .vscode
 /greenguard
+/gogrow
 /greenguard_arm64
 node_modules
 .eslintrc
@@ -9,3 +10,4 @@ static/images/camcapture/*.jpeg
 database/
 launch.sh
 launch_pi.sh
+.DS_Store
