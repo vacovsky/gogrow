@@ -8,7 +8,7 @@ for monitoring an enclosed plant-growing environment
 ## setup
 
 ```bash
-go get github.com/vacovsky/gogrow
+go get github.com/vacovsky/gogrow/
 go get github.com/vacovsky/gorm
 
 cd static

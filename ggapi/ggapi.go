@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/vacovsky/gogrowggservice/camera"
+	"github.com/vacovsky/gogrow/ggservice/camera"
 )
 
 // Start starts the API web application

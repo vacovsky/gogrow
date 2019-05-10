@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/vacovsky/gogrowggapi"
-	"github.com/vacovsky/gogrowggdata"
-	"github.com/vacovsky/gogrowggmodels"
-	"github.com/vacovsky/gogrowggservice"
-	"github.com/vacovsky/gogrowggservice/camera"
+	"github.com/vacovsky/gogrow/ggapi"
+	"github.com/vacovsky/gogrow/ggdata"
+	"github.com/vacovsky/gogrow/ggmodels"
+	"github.com/vacovsky/gogrow/ggservice"
+	"github.com/vacovsky/gogrow/ggservice/camera"
 )
 
 var (

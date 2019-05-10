@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )

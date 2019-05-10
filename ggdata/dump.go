@@ -3,7 +3,7 @@ package ggdata
 import (
 	"encoding/json"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 // GetLatestEnvironmentCheck : return to the called the lastest environment DB entry

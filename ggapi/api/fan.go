@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vacovsky/gogrowggdata"
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggdata"
+	"github.com/vacovsky/gogrow/ggmodels"
 	"github.com/davecgh/go-spew/spew"
 )
 

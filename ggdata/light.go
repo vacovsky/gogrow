@@ -1,6 +1,6 @@
 package ggdata
 
-import "github.com/vacovsky/gogrowggmodels"
+import "github.com/vacovsky/gogrow/ggmodels"
 
 func GetLight() ggmodels.Light {
 	var l ggmodels.Light

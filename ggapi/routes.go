@@ -3,7 +3,7 @@ package ggapi
 import (
 	"net/http"
 
-	"github.com/vacovsky/gogrowggapi/api"
+	"github.com/vacovsky/gogrow/ggapi/api"
 )
 
 var unprotectedRoutes = map[string]func(http.ResponseWriter, *http.Request){

@@ -1,7 +1,7 @@
 package ggdata
 
 import (
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 func GetFan() ggmodels.Fan {

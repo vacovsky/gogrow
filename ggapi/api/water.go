@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/vacovsky/gogrowggdata"
+	"github.com/vacovsky/gogrow/ggdata"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 func Water(w http.ResponseWriter, r *http.Request) {

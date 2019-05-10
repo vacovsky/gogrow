@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 var (

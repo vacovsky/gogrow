@@ -3,7 +3,7 @@ package ggdata
 import (
 	"log"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 func GetWaterEvent() ggmodels.WateringEvent {

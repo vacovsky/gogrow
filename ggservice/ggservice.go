@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/vacovsky/gogrowggdata"
-	"github.com/vacovsky/gogrowggservice/systemhealth"
-	"github.com/vacovsky/gogrowggservice/weather"
+	"github.com/vacovsky/gogrow/ggdata"
+	"github.com/vacovsky/gogrow/ggservice/systemhealth"
+	"github.com/vacovsky/gogrow/ggservice/weather"
 )
 
 var pollingInterval int

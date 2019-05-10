@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 func LoadTempChart() ggmodels.Chart {

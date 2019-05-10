@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrow/ggmodels"
 )
 
 func Environment(w http.ResponseWriter, r *http.Request) {

@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/vacovsky/gogrowggservice/weather"
+	"github.com/vacovsky/gogrow/ggservice/weather"
 )
 
 func Weather(w http.ResponseWriter, r *http.Request) {
