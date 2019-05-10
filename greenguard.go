@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"bitbucket.org/vacovsky/greenguard/ggapi"
-	"bitbucket.org/vacovsky/greenguard/ggdata"
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
-	"bitbucket.org/vacovsky/greenguard/ggservice"
-	"bitbucket.org/vacovsky/greenguard/ggservice/camera"
+	"github.com/vacovsky/gogrowggapi"
+	"github.com/vacovsky/gogrowggdata"
+	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrowggservice"
+	"github.com/vacovsky/gogrowggservice/camera"
 )
 
 var (

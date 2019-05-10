@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggservice/weather"
+	"github.com/vacovsky/gogrowggservice/weather"
 )
 
 func Weather(w http.ResponseWriter, r *http.Request) {

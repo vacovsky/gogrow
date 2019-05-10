@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
+	"github.com/vacovsky/gogrowggdata"
 )
 
 func Device(w http.ResponseWriter, r *http.Request) {

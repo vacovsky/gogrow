@@ -1,7 +1,7 @@
 package ggdata
 
 import (
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 )
 
 func GetFilter() ggmodels.Filter {

@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 )
 
 var (

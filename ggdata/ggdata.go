@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )

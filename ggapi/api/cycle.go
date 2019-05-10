@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggdata"
+	"github.com/vacovsky/gogrowggmodels"
 	"github.com/davecgh/go-spew/spew"
 )
 

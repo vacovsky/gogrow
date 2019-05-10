@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
-	"bitbucket.org/vacovsky/greenguard/ggservice/systemhealth"
-	"bitbucket.org/vacovsky/greenguard/ggservice/weather"
+	"github.com/vacovsky/gogrowggdata"
+	"github.com/vacovsky/gogrowggservice/systemhealth"
+	"github.com/vacovsky/gogrowggservice/weather"
 )
 
 var pollingInterval int

@@ -1,8 +1,8 @@
 {
   "problems": [
-    "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/escodegen/node_modules/esprima",
-    "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/jsdom/node_modules/escodegen",
-    "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/request/node_modules/tough-cookie"
+    "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/escodegen/node_modules/esprima",
+    "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/jsdom/node_modules/escodegen",
+    "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/request/node_modules/tough-cookie"
   ],
   "dependencies": {
     "chart.js": {
@@ -66,7 +66,7 @@
       "from": "mini.js",
       "resolved": "https://registry.npmjs.org/mini.js/-/mini.js-0.0.4-c.tgz",
       "problems": [
-        "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/escodegen/node_modules/esprima"
+        "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/escodegen/node_modules/esprima"
       ],
       "dependencies": {
         "escodegen": {
@@ -74,14 +74,14 @@
           "from": "escodegen@~1.8.1",
           "resolved": "https://registry.npmjs.org/escodegen/-/escodegen-1.8.1.tgz",
           "problems": [
-            "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/escodegen/node_modules/esprima"
+            "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/escodegen/node_modules/esprima"
           ],
           "dependencies": {
             "esprima": {
               "version": "2.7.3",
               "extraneous": true,
               "problems": [
-                "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/escodegen/node_modules/esprima"
+                "extraneous: esprima@2.7.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/escodegen/node_modules/esprima"
               ],
               "from": "esprima@^2.7.1",
               "resolved": "https://registry.npmjs.org/esprima/-/esprima-2.7.3.tgz"
@@ -188,8 +188,8 @@
       "from": "weld",
       "resolved": "https://registry.npmjs.org/weld/-/weld-0.2.2.tgz",
       "problems": [
-        "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/jsdom/node_modules/escodegen",
-        "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/request/node_modules/tough-cookie"
+        "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/jsdom/node_modules/escodegen",
+        "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/request/node_modules/tough-cookie"
       ],
       "dependencies": {
         "jsdom": {
@@ -197,8 +197,8 @@
           "from": "jsdom@>= 0.2.0",
           "resolved": "https://registry.npmjs.org/jsdom/-/jsdom-15.0.0.tgz",
           "problems": [
-            "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/jsdom/node_modules/escodegen",
-            "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/request/node_modules/tough-cookie"
+            "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/jsdom/node_modules/escodegen",
+            "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/request/node_modules/tough-cookie"
           ],
           "dependencies": {
             "abab": {
@@ -300,7 +300,7 @@
               "version": "1.11.1",
               "extraneous": true,
               "problems": [
-                "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/jsdom/node_modules/escodegen"
+                "extraneous: escodegen@1.11.1 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/jsdom/node_modules/escodegen"
               ],
               "from": "escodegen@^1.11.0",
               "resolved": "https://registry.npmjs.org/escodegen/-/escodegen-1.11.1.tgz"
@@ -325,7 +325,7 @@
               "from": "request@^2.88.0",
               "resolved": "https://registry.npmjs.org/request/-/request-2.88.0.tgz",
               "problems": [
-                "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/request/node_modules/tough-cookie"
+                "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/request/node_modules/tough-cookie"
               ],
               "dependencies": {
                 "aws-sign2": {
@@ -627,7 +627,7 @@
                   "version": "2.4.3",
                   "extraneous": true,
                   "problems": [
-                    "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/bitbucket.org/vacovsky/greenguard/static/node_modules/request/node_modules/tough-cookie"
+                    "extraneous: tough-cookie@2.4.3 /Users/jvacovsk/.go/src/github.com/vacovsky/gogrowstatic/node_modules/request/node_modules/tough-cookie"
                   ],
                   "from": "tough-cookie@~2.4.3",
                   "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.4.3.tgz"

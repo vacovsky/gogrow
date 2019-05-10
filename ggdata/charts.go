@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 )
 
 func LoadTempChart() ggmodels.Chart {

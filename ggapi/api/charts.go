@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
+	"github.com/vacovsky/gogrowggdata"
 )
 
 func ChartTemperature(w http.ResponseWriter, r *http.Request) {

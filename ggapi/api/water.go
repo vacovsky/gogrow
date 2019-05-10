@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
+	"github.com/vacovsky/gogrowggdata"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 )
 
 func Water(w http.ResponseWriter, r *http.Request) {

@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
-	"bitbucket.org/vacovsky/greenguard/ggservice/systemhealth/device"
+	"github.com/vacovsky/gogrowggmodels"
+	"github.com/vacovsky/gogrowggservice/systemhealth/device"
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"

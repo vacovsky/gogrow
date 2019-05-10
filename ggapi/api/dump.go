@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggdata"
+	"github.com/vacovsky/gogrowggdata"
 )
 
 func Dump(w http.ResponseWriter, r *http.Request) {

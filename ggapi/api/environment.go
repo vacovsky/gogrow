@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"bitbucket.org/vacovsky/greenguard/ggmodels"
+	"github.com/vacovsky/gogrowggmodels"
 )
 
 func Environment(w http.ResponseWriter, r *http.Request) {

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"bitbucket.org/vacovsky/greenguard/ggservice/camera"
+	"github.com/vacovsky/gogrowggservice/camera"
 )
 
 // Start starts the API web application
