@@ -34,8 +34,8 @@ func LoadTempChart() ggmodels.Chart {
 	cpuTempStr := []string{}
 	outsideTempStr := []string{}
 
-	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&data).Order("time_stamp desc")
-	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&weatherData).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-time.Duration(chartHours)*time.Hour)).Find(&data).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-time.Duration(chartHours)*time.Hour)).Find(&weatherData).Order("time_stamp desc")
 
 	var curTT float64
 	var curAT float64
@@ -84,8 +84,8 @@ func LoadHumidityChart() ggmodels.Chart {
 	outsideCloudsStr := []string{}
 	outsideHumStr := []string{}
 
-	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&data).Order("time_stamp desc")
-	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&weatherData).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-time.Duration(chartHours)*time.Hour)).Find(&data).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-time.Duration(chartHours)*time.Hour)).Find(&weatherData).Order("time_stamp desc")
 
 	var curTH float64
 	var curAH float64
