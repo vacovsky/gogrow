@@ -63,7 +63,7 @@ func makeRequest() ggmodels.WeatherRaw {
 
 	body, readErr := ioutil.ReadAll(resp.Body)
 	if readErr != nil {
-		log.Fatal(readErr)
+		log.Println(readErr)
 	}
 
 	jsonErr := json.Unmarshal(body, &weather)

@@ -2,11 +2,25 @@ package ggdata
 
 import (
 	"fmt"
+	"log"
+	"os"
 	"strconv"
 	"time"
 
 	"github.com/vacovsky/gogrow/ggmodels"
 )
+
+var (
+	chartHours int
+)
+
+func init() {
+	var err error
+	chartHours, err = strconv.Atoi(os.Getenv("GG_CHART_HOURS"))
+	if err != nil {
+		log.Println(err)
+	}
+}
 
 func LoadTempChart() ggmodels.Chart {
 
@@ -20,8 +34,8 @@ func LoadTempChart() ggmodels.Chart {
 	cpuTempStr := []string{}
 	outsideTempStr := []string{}
 
-	Service().Where("time_stamp > ?", time.Now().Add(-72*time.Hour)).Find(&data).Order("time_stamp desc")
-	Service().Where("time_stamp > ?", time.Now().Add(-72*time.Hour)).Find(&weatherData).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&data).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&weatherData).Order("time_stamp desc")
 
 	var curTT float64
 	var curAT float64
@@ -59,6 +73,7 @@ func LoadTempChart() ggmodels.Chart {
 
 func LoadHumidityChart() ggmodels.Chart {
 
+	// GG_CHART_HOURS
 	data := []ggmodels.DeviceState{}
 	weatherData := []ggmodels.Weather{}
 
@@ -69,8 +84,8 @@ func LoadHumidityChart() ggmodels.Chart {
 	outsideCloudsStr := []string{}
 	outsideHumStr := []string{}
 
-	Service().Where("time_stamp > ?", time.Now().Add(-72*time.Hour)).Find(&data).Order("time_stamp desc")
-	Service().Where("time_stamp > ?", time.Now().Add(-72*time.Hour)).Find(&weatherData).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&data).Order("time_stamp desc")
+	Service().Where("time_stamp > ?", time.Now().Add(-chartHours*time.Hour)).Find(&weatherData).Order("time_stamp desc")
 
 	var curTH float64
 	var curAH float64

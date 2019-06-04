@@ -44,7 +44,6 @@ func saveWeatherInfo() {
 	weather := weather.GetWeatherFromAPI()
 	ds := ggdata.Service()
 	ds.Save(&weather)
-
 }
 
 func saveDeviceInfo() {

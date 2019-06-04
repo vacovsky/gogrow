@@ -13,6 +13,7 @@ export GG_OPENWEATHER_API_KEY="MYKEY"
 export GG_OPENWEATHER_API_UNITS="imperial"
 export GG_CAMERA_INTERVAL_HOURS="1"
 export GG_TIMEZONE_OFFSET="0700"
+export GG_CHART_HOURS="336"
 
 
 # if "VCHI initialization failed" error appears, run this
